@@ -1,5 +1,27 @@
 # Changelog
 
+## [21.0.0](https://github.com/AstroNvim/astrocommunity/compare/v20.0.0...v21.0.0) (2026-04-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* astronvim v6 compatible  ([#1730](https://github.com/AstroNvim/astrocommunity/issues/1730))
+
+### Features
+
+* astronvim v6 compatible  ([#1730](https://github.com/AstroNvim/astrocommunity/issues/1730)) ([39edda0](https://github.com/AstroNvim/astrocommunity/commit/39edda038177a8b8d4838536160cfbd006b540dc))
+* **rust:** bump `rustaceanvim` to v8+ ([#1755](https://github.com/AstroNvim/astrocommunity/issues/1755)) ([c55e6c1](https://github.com/AstroNvim/astrocommunity/commit/c55e6c12ea20b97cc8b31a103ba212f03754e162))
+
+
+### Bug Fixes
+
+* **inc-rename-nvim:** lazy load on cmd instead of lsp setup ([#1750](https://github.com/AstroNvim/astrocommunity/issues/1750)) ([85c0339](https://github.com/AstroNvim/astrocommunity/commit/85c03394da14a527694e6366dfcf54e6593a654c))
+* **refactoring-nvim:** fix dependencies and API usage for latest version ([#1756](https://github.com/AstroNvim/astrocommunity/issues/1756)) ([7c1a46d](https://github.com/AstroNvim/astrocommunity/commit/7c1a46d51e0c52f05ebc9b11d466ef9d9464c066))
+* **rust:** drop incompatible root_dir under native_lsp_config ([#1754](https://github.com/AstroNvim/astrocommunity/issues/1754)) ([0f87ef8](https://github.com/AstroNvim/astrocommunity/commit/0f87ef876b15e1a4362d893e00e1c3ef95a7112d))
+* **rust:** rename `files.excludeDirs` to `files.exclude` ([#1753](https://github.com/AstroNvim/astrocommunity/issues/1753)) ([36463ca](https://github.com/AstroNvim/astrocommunity/commit/36463ca257e8aafadae0f1bccfa2bb929dc9bf70))
+* **trouble-nvim:** fix error when lspkind is unaccessible by explicitly passing nil ([#1751](https://github.com/AstroNvim/astrocommunity/issues/1751)) ([6129af8](https://github.com/AstroNvim/astrocommunity/commit/6129af8b9cea625ad76c00717ca9d3098d649991))
+* **typescript-all-in-one:** update lsp configuration and APIs ([4521b6c](https://github.com/AstroNvim/astrocommunity/commit/4521b6c0f95ab06f7ea72ba922f2dffe5b7f3553))
+
 ## [20.0.0](https://github.com/AstroNvim/astrocommunity/compare/v19.0.0...v20.0.0) (2026-03-25)
 
 
